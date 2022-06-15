@@ -1,0 +1,186 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+.navigation{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin: 0 30px;
+    background-color: #fff;
+    font-weight: bolder;
+}
+a {
+    color: #888;
+    }
+.navigation,.top{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation > div{
+    background-color: #fff;
+    height: 83px;
+    
+}
+.navigation > .first_top,ul{
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 1rem;
+}
+.navigation > .first_top,ul,li,a{
+    text-decoration: none;
+    padding: 10px 5px;
+}
+.first_top > .marketer{
+    font-size: 1.5rem;
+    margin: 5px 0;
+    margin-left: 20px;
+}
+.top > .first_top >.marketer,.dot{
+    position: relative;
+    top: 7px;
+
+}
+.top > .first_top >.marketer>span:last-child{
+    position: relative;
+    top: 10px;
+}
+.navigation >.top>.first_top> div>ul>li:first-child{
+    border-bottom: 3px solid #1111ff;
+    
+}
+.top_right{
+    color: #888;
+}
+.first_top >.top_right>span,p{
+    position: relative;
+    left: 15rem;
+   
+}
+.secondpart{
+    color: #888;
+    font-weight: bold;
+}
+.plus_svg{
+    position: static;
+    top: 7px;
+}
+.abtmyp,.myprofile>img{
+    border-radius: 100%;
+    position: relative;
+    top: 4px;
+}
+.abtmyp,.pics{
+    position: relative;
+    right: 14px;
+}
+.rightList{
+    position: relative;
+    right: 25px;
+}
+.first_top > .rightList>ul{
+    margin: 43px 0;
+    font-size: 1rem;
+}
+.caret_down{
+    position: static;
+    top: 5px;
+}
+.borderbottom{
+    position: relative;
+    left: 22.4rem;
+    bottom: 0.7rem;
+    width: 100px;
+}
+article{
+    background-color:#eff4f7;
+    margin: 0 30px;
+    min-height: 400px;
+}
+article > .second{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+article>.second >.secondpart{
+    width: 400px;
+    height: 50px;
+    
+}
+article>.second>span,.qualified,.disqualified{
+    margin: 10px 0;
+    padding: 4px;
+}
+.second>.disqualified> span{
+    margin: 10px 0;
+    background-color:azure;
+    padding: 5px;
+    margin-left: 1.1rem;
+    border: 1px solid #888;
+    border-radius: 4px;
+}
+.second > .disqualified>span:last-child{
+    margin: 0 5px;
+}
+article > .main_content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+article > .main_content > div{
+    width: 250px;
+    /* background-color: blanchedalmond; */
+}
+h5{
+    color: #888;
+}
+.miller{
+    background-color: #fff;
+    padding: 8px;
+    margin: 7px 0;
+    border-radius: 4px;
+    box-shadow: 1px 0 3px #ccc;
+}
+.miller .span2{
+    font-size: 0.8rem;
+    padding-top: 4px;
+    color: #888;
+}
+.profile{
+    float: left;
+    margin-right: 8px;
+}
+
+.millers,.span{
+    display: block;
+    
+}
+.right{
+    float: right;
+}
+.silver{
+    width: 11px;
+    height: 11px;
+    background-color: silver;
+    color: silver;
+}
+.lightb{
+    width: 11px;
+    height: 11px;
+    background-color: lightblue;
+    color: lightblue;
+}
+.blue{
+    width: 11px;
+    height: 11px;
+    background-color: blue;
+    color: blue;
+}
+.green{
+    width: 11px;
+    height: 11px;
+    background-color: green;
+    color: green;
+}
